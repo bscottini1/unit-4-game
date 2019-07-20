@@ -1,0 +1,45 @@
+body {
+    background: url(https://womansbestfitness.files.wordpress.com/2018/05/marble.jpg);
+}
+
+
+header {
+    font-family: sans-serif;
+    color: gray;
+    text-align: center;
+}
+
+
+#WinLoss {
+    float: right;
+    width: 20%;
+    height: 5%;
+    background-color: red;
+}
+
+#ComputerScore {
+
+    float: none
+    width: 20%;
+    height: 5%;
+    background-color: red;
+}
+
+#UserScore {
+    
+    float: none;
+    width: 20%;
+    height: 5%;
+    background-color: red;
+}
+
+.buttonRow   {
+    align-content: center;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    padding-block: auto;
+}
