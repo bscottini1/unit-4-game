@@ -48,8 +48,26 @@ button {
     background-color: red;
 }
 
-#Ruby {
+#ruby {
     background: url(https://www.ruby-toolbox.com/assets/startpage/ruby-a2724b6b4ee3eceee994db25840faa812194c4fb0eac6f8b374dcff3e120a303.png);
     width: 200px;
-    height: 159px;
+    height: 160px;
+}
+
+#diamond {
+    background: url(../images/flawless-diamond-edited.png);
+    width: 200px;
+    height: 160px;
+}
+
+#emerald {
+    background: url(../images/gemstone-259332-emerald-emerald-green-47d9a.jpg);
+    width: 400px;   
+    height: 460px;
+}
+
+#topaz {
+    background: url(../images/topaz.jpg);
+    width: 200px;
+    height: 160px;
 }
