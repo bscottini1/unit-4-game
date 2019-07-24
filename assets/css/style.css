@@ -7,6 +7,7 @@ header {
     font-family: sans-serif;
     color: gray;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -17,36 +18,55 @@ header {
 
 #WinLoss {
     float: right;
-    width: 300px;
+    width: 200px;
     height: 100px;
-    background-color: red;
+    background-color: transparent;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 20pt;    
+    color: gray;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2pt;
+    padding-left: 5px;
 }
 
 #ComputerScore {
-    color: #cccccc;
+    color: gray;
     width: 300px;
     height: 100px;
-    background-color: red;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-size: 30pt;
     display: inline-block;
-}
+    border-style: solid;
+    border-width: 2pt;
+    border-color: gray; 
+    text-align: center;
+    padding-top: 15px;
+    }
 
 #UserScore {
     
     width: 300px;
     height: 100px;
-    background-color: red;
+    background-color: transparent;
     display: inline-block;
-}
+    border-style: solid;
+    border-color: gray;
+    border-width: 2pt;
+    font-family: sans-serif;
+    font-size: 30pt;    
+    color: gray;
+    text-align: center;
+    padding-top: 15px;
+    }
 
 .buttonRow   {
-    display: inline-block;
+    display: -moz-inline-box;
 }
 
-button {
-    width: 200px;
-    height: 159px;
-    background-color: red;
-}
+
 
 #ruby {
     background: url(https://www.ruby-toolbox.com/assets/startpage/ruby-a2724b6b4ee3eceee994db25840faa812194c4fb0eac6f8b374dcff3e120a303.png);
@@ -57,7 +77,7 @@ button {
 }
 
 #diamond {
-    background: url(../images/flawless-diamond-edited.png);
+    background: url(../images/flawless-diamond-edited1.png);
     background-size: cover;
     background-position: center;
     width: 200px;
@@ -73,7 +93,15 @@ button {
 }
 
 #topaz {
-    background: url(../images/topaz.jpg);
+    background: url(../images/topaz.jpg.png);
     width: 200px;
     height: 160px;
+    background-size: cover;
+    background-position: center;
+}
+
+#reset {
+    float: left;
+    font-family: sans-serif;
+    
 }

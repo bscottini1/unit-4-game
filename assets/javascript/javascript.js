@@ -49,11 +49,13 @@ $(document).ready(function () {
             $("#Losses").html(`<p>Losses: ${Losses}</p>`);
         };
 
+        //Reset Button
         function reset (){
             $("#UserScore").text(0);
             UserScore = 0;
             ComputerScore = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
             $("#ComputerScore").text(ComputerScore);
+            crystals[crystalValue].value = Math.floor(Math.random() * 12) + 1;
             }
 
         $("#reset").on("click",reset);
