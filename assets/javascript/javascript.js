@@ -38,6 +38,7 @@ $(document).ready(function () {
         $("#UserScore").text(UserScore);
         if (UserScore === ComputerScore) {
             Wins += 1;
+            reset();
             alert("You Win!");
             $("#Wins").html(`<p>Wins: ${Wins}</p>`);
         
@@ -45,6 +46,7 @@ $(document).ready(function () {
 
         if (UserScore > ComputerScore) {
             Losses += 1;
+            reset();
             alert("You Lose!");
             $("#Losses").html(`<p>Losses: ${Losses}</p>`);
         };
